@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import styles from "Css/firstpage.module.scss";
-import { Link, useLocation } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import Modal from "@mui/material/Modal";
 import { Box } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
