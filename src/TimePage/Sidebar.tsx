@@ -25,9 +25,9 @@ interface SidebarType {
 const Sidebar: React.FC<SidebarType> = ({
   sidebarTimeRefs,
   sidebarOpacity,
-  setSidebarOpacity,
+  
   theme,
-  setTheme,
+ 
 }) => {
   const [sortTimeArray, setSortTimeArray] = useState<TimeArrayType[]>([]);
   const handlePicScroll = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {

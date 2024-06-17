@@ -27,7 +27,6 @@ const Time: React.FC<TimeProps> = ({
   setTheme,
   showMordal,
   setShowMordal,
-  selectedPicIndex,
   setSelectedPicIndex,
 }) => {
   const [topPicOpacity, setTopPicOpacity] = useState(1);
