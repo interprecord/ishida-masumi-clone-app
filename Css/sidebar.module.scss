@@ -1,0 +1,40 @@
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  
+}
+
+.displayHour {
+  position: absolute;
+  right: 0.5px;
+  transform: translateX(-100%);
+ opacity:0;
+
+}
+
+.time {
+  position: relative;
+}
+
+.displayMorE {
+  position: absolute;
+left:0.5px;
+  transform: translateX(100%);
+  opacity:0;
+
+}
+
+.all:hover .displayHour,
+.all:hover .displayMorE {
+  opacity: 1 !important;
+ 
+}
+
+.displayHour, .time, .displayMorE {
+  white-space: nowrap;
+  overflow: hidden;
+  
+}

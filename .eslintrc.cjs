@@ -9,11 +9,13 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:vitest/recommended",
     "plugin:storybook/recommended",
+    "airbnb-base",
   ],
   overrides: [
     {
       env: {
         node: true,
+        window: true,
       },
       files: [".eslintrc.{js,cjs}"],
       parserOptions: {
