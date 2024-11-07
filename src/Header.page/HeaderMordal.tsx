@@ -37,7 +37,7 @@ const HeaderMordal:React.FC<HeaderMoralProps> = ({open,setOpen}) => {
             </Box>
 
             <Box className={styles.innerHeadText} onClick={handleClose}>
-              MASUMI ISHIDA{" "}
+              KOKORO NAKAMAE{" "}
             </Box>
 
             <Box className={styles.menu}>
@@ -85,13 +85,13 @@ const HeaderMordal:React.FC<HeaderMoralProps> = ({open,setOpen}) => {
                     </Link>
                   </li>
                   <a 
-                    href="https://www.instagram.com/8msmsm8/"
+                    
                     className={styles.innerNav}
                   >
                     <InstagramIcon style={{ fontSize: 30 }}></InstagramIcon>
                   </a>
                   <a
-                    href="https://twitter.com/Masumi_Ishida_"
+                    href="https://x.com/upperprecord"
                     className={styles.innerNav}
                   >
                     <TwitterIcon style={{ fontSize: 30}}></TwitterIcon>
