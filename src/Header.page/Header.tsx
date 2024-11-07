@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({ theme = true }) => {
       <header ref={headerRef} className={styles.header}>
         <Box className={styles.headTextPosition}>
           <Link to="/" className={styles.headText}>
-            MASUMI ISHIDA{" "}
+            KOKORO NAKAMAE in Kyoto{" "}
           </Link>
         </Box>
         <Box className={styles.humButton} onClick={() => handleOpen()}>
@@ -82,10 +82,10 @@ const Header: React.FC<HeaderProps> = ({ theme = true }) => {
                 NEWS
               </Link>
             </li>
-            <a href="https://www.instagram.com/8msmsm8/" className={styles.nav}>
+            <a className={styles.nav}>
               <InstagramIcon style={{ fontSize: 15 }}></InstagramIcon>
             </a>
-            <a href="https://twitter.com/Masumi_Ishida_" className={styles.nav}>
+            <a href="https://x.com/upperprecord" className={styles.nav}>
               <TwitterIcon style={{ fontSize: 15 }}></TwitterIcon>
             </a>
           </ul>

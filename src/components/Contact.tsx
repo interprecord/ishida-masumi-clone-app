@@ -57,7 +57,7 @@ const Contact: React.FC<dataProps> = ({ data }) => {
 
         <Box style={{ marginTop: "60px", maxWidth: "600px", margin: "auto" }}>
           <img
-            src={dataChildren?.[3]?.gazo?.url}
+            src={dataChildren?.[2]?.gazo?.url}
             alt="Contact"
             style={{ width: "100%", height: "100%" }}
           />

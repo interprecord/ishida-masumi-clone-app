@@ -30,9 +30,7 @@ const Sidebar: React.FC<SidebarType> = ({
  
 }) => {
   const [sortTimeArray, setSortTimeArray] = useState<TimeArrayType[]>([]);
-  const handlePicScroll = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-    console.log(e.target);
-  };
+
   useEffect(() => {
     const nowHour: number = Number(dayjs().format("HH"));
 
@@ -279,7 +277,7 @@ const Sidebar: React.FC<SidebarType> = ({
             {
               <div
                 className={styles.all}
-                onClick={(e) => handlePicScroll(e)}
+             
                 ref={(el) => {
                   if (el) {
                     // 配列の長さを確保する

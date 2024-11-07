@@ -11,8 +11,6 @@ export interface dataProps {
 
 //APIからとってきたデータをmapで取り出してreturn以下で表示したい。
 const Exhibitions: React.FC<dataProps> = ({ data }) => {
-  // const [data, setData] = useState<dataType>();
-  // console.log()
   const navigate = useNavigate();
 
   const handleImageClick = (index: React.Key | null | undefined) => {
