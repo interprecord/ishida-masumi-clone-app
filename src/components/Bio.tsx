@@ -43,7 +43,7 @@ const Bio: React.FC<dataProps> = ({ data }) => {
         </Box>
         <Box
           sx={{
-            width: "300px",
+            width: "500px",
             marginTop: "300px",
             marginBottom: "20px",
             paddingLeft: "100px",
@@ -57,7 +57,8 @@ const Bio: React.FC<dataProps> = ({ data }) => {
           <img
             src={data?.[2].firstPage?.[0].biopicture?.url}
             alt="bioPicture"
-            style={{ maxWidth: "auto", height: "auto", margin: "auto" }}
+            style={{ maxWidth: "100%", height: "auto", margin: "auto" }}
+            
           />
         </Box>
       </Box>
